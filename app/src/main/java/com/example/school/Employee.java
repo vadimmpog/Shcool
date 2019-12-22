@@ -1,6 +1,6 @@
 package com.example.school;
 
-public class Employee {
+public class Employee extends Person {
     public Employee() {
     }
 

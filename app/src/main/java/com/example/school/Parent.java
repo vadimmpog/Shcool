@@ -1,6 +1,6 @@
 package com.example.school;
 
-public class Parent {
+public class Parent extends Person {
     public Parent() {
 
     }

@@ -1,5 +1,6 @@
 package com.example.school;
 
+
 public class School {
 
     public School(){
@@ -15,7 +16,7 @@ public class School {
     Elective[] electives;
     Section[] sections;
 
-    public void getListTeachers(){
+    public void getListTeachers( ){
 
     }
 
