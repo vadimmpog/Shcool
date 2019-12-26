@@ -4,11 +4,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_school_foreground"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_school_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".StudentsList"></activity>
+        <activity android:name=".RegPersonal" />
+        <activity android:name=".RegStudent" />
+        <activity android:name=".List" />
+        <activity android:name=".TeacherJournal" />
+        <activity android:name=".PupilsJournal" />
         <activity android:name=".Authorization">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".EnterActivity" />
     </application>
 
 </manifest>
